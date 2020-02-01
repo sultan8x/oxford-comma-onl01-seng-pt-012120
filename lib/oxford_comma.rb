@@ -10,8 +10,9 @@ def oxford_comma(array)
 
 
   elsif array.size == 3
+      
       array.join(", ")
-      binding.pry
+
       array.delete_at(2)
       array.join << " and starfruit"
 
