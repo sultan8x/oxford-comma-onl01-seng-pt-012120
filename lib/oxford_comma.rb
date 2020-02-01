@@ -11,8 +11,8 @@ def oxford_comma(array)
     else array.size <= 3
       last_word = array.pop
       updated_array = array.join(", ")
-      updated_array << ", and #{last_word}""
+      updated_array << ", and #{last_word}"
       return updated_array
     end
 
-end 
+end
