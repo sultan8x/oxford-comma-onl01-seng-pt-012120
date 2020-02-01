@@ -14,7 +14,8 @@ def oxford_comma(array)
       array.join(", ")
 
       array.delete_at(2)
-      array.join << " and starfruit"
+      array
+      # array.join << " and starfruit"
 
   end
 
