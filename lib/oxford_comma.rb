@@ -1,5 +1,4 @@
-# ["kiwi", "durian", "starfruit"]
-
+require 'pry'
 
 def oxford_comma(array)
     if array.size < 2
@@ -12,6 +11,7 @@ def oxford_comma(array)
       last_word = array.pop
       new_array = array.join(", ")
       mew_array << ", and #{last_word}
+      binding.pry
       return updated_array
     end
 
