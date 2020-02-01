@@ -10,12 +10,8 @@ def oxford_comma(array)
 
 
   elsif array.size == 3
+    array.map do |index| S
 
-      array.join(", ")
-
-      array.delete_at(2)
-      array
-      # array.join << " and starfruit"
 
   end
 
