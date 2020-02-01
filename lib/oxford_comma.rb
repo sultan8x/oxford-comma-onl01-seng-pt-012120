@@ -10,7 +10,7 @@ def oxford_comma(array)
     else array.size == 3
       last_word = array.pop
       new_array = array.join(", ")
-      mew_array << ", and #{last_word}
+      new_array << ", and #{last_word}
       binding.pry
       return updated_array
     end
