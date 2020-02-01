@@ -10,7 +10,7 @@ def oxford_comma(array)
 
 
   elsif array.size == 3
-      
+
       array.join(", ")
 
       array.delete_at(2)
