@@ -2,7 +2,7 @@
 
 
 def oxford_comma(array)
-    if array.size == 1
+    if array.size < 2
       array.join
 
     elsif array.size == 2
@@ -10,9 +10,9 @@ def oxford_comma(array)
 
     else array.size == 3
       last_word = array.pop
-      new_array = array.join(", ")
-      new_array << ", and #{last_word}
-      return new_array
+      updated_array = array.join(", ")
+      updated_array << ", and #{last_word}
+      return updated_array
     end
 
 
