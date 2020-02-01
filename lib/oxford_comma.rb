@@ -2,11 +2,19 @@
 
 
 def oxford_comma(array)
-  array.size < 3
+  array.size == 1
+  return array
+
+  array.size = 2
   array.join (" and ")
 
-  array.size == 3
-  array.join(",")
-  array.delete_at(-1)
-  array
-end
+
+elsif array.length > 2 
+      last_word = array.pop
+    new_list = array.join(", ")
+      new_list << ", and #{last_word}"
+  return new_list
+  
+  end
+
+ end
