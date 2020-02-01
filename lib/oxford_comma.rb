@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  array.each do |fruit|
-    puts array.join
-end
+  array.size < 3
+  array.join (" and ")
+
 end
