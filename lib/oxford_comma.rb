@@ -8,4 +8,5 @@ def oxford_comma(array)
   array.size == 3
   array.join(",")
   array.delete_at(-1)
+  array
 end
